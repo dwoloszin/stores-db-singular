@@ -66,6 +66,7 @@ _STORES: Dict[str, List[str]] = {
     "hera":             [sys.executable, "-m", "markets.hera.scraper_hera"],
     "alianza":          [sys.executable, "-m", "markets.alianza.scraper_alianza"],
     "singular":         [sys.executable, "-m", "markets.singular.scraper_singular"],
+    "integral":         [sys.executable, "-m", "markets.integral.scraper_integral"],
 }
 
 # Stores whose EAN must be enriched from product pages after scraping
